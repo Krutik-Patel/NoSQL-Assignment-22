@@ -1,0 +1,6 @@
+From the 'part1' directory, run the following commands:
+
+hadoop jar ./jars/WordCount2.jar WordCount2 ./data/Wikipedia-EN-20120601_ARTICLES ./outputs/output_10k_v1 -skippatterns stopwords.txt > ./logs/wc2-10k-1.log 2>&1 &
+cd scripts
+javac Extract50.java
+java Extract50 ../outputs/output_10k_v1/part-r-00000 ../top50.txt
