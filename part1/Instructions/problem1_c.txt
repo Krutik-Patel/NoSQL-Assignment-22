@@ -1,0 +1,4 @@
+From the part1 directory, execute the following commands
+
+chmod +x ./scripts/runPartC.sh
+./scripts/runPartC.sh
