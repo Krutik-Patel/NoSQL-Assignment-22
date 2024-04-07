@@ -1,0 +1,7 @@
+from the part1 directory execute the follwing commands:
+
+hadoop jar Pairs.jar CoocurencePairs Wikipedia-EN-20120601_ARTICLES pairs10kd1 top50.txt -d 1 > pairs10kd1.log 2>&1 
+hadoop jar Pairs.jar CoocurencePairs Wikipedia-EN-20120601_ARTICLES pairs10kd2 top50.txt -d 2 > pairs10kd2.log 2>&1 
+hadoop jar Pairs.jar CoocurencePairs Wikipedia-EN-20120601_ARTICLES pairs10kd3 top50.txt -d 3 > pairs10kd3.log 2>&1 
+hadoop jar Pairs.jar CoocurencePairs Wikipedia-EN-20120601_ARTICLES pairs10kd4 top50.txt -d 4 > pairs10kd4.log 2>&1 
+
