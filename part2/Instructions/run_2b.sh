@@ -1,0 +1,1 @@
+hadoop jar ./jars/termFreq2.jar TermFreq2 ./data/Wikipedia-EN-20120601_ARTICLES ./outputs/output_Q2b -skippatterns stopwords.txt > ./logs/df10k.log 2>&1 &
